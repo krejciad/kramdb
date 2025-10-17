@@ -128,5 +128,5 @@ std::cout << DB::easterEgg(1);
 - `DB::easterEgg(n)` → print a fun easter egg  
 
 ## 📄 License
-Licensed under **Creative Commons CC-BY-SA ©2025**.  
+Licensed under **Creative Commons CC-BY-4.0 ©2025**.  
 See [LICENCE](LICENCE).
