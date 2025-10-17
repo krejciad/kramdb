@@ -18,6 +18,13 @@ Then include it in your source code:
 #include "kramdb.hpp"
 ```
 
+Or, you can use Microsoft Visial Studio solution file as starting point.
+
+```cpp
+kramdb.sln
+kramdb.vcproxj
+```
+
 No external dependencies are required beyond the C++ standard library.  
 
 ## 🚀 Quick Start
