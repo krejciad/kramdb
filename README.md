@@ -22,7 +22,7 @@ Or, you can use Microsoft Visial Studio solution file as starting point.
 
 ```cpp
 kramdb.sln
-kramdb.vcproxj
+kramdb.vcxproj
 ```
 
 No external dependencies are required beyond the C++ standard library.  
