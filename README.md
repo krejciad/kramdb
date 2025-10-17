@@ -18,9 +18,9 @@ Then include it in your source code:
 #include "kramdb.hpp"
 ```
 
-Or, you can use Microsoft Visial Studio solution file as starting point.
+Or, you can use Microsoft Visual Studio solution file as starting point.
 
-```cpp
+```bash
 kramdb.sln
 kramdb.vcxproj
 ```
