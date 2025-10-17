@@ -129,4 +129,4 @@ std::cout << DB::easterEgg(1);
 
 ## 📄 License
 Licensed under **Creative Commons CC-BY-SA ©2025**.  
-See [LICENCE.txt](LICENCE.txt).  
+See [LICENCE](LICENCE).
