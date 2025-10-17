@@ -47,8 +47,14 @@ Current supported TYPEs are Integer, Float, Boolean and String.
 
 ### 4. Print data
 ```cpp
-std::cout << DB::PRINT(t);   // compact one-line output
-std::cout << DB::TREE(t);    // pretty tree structure
+std::cout << DB::PRINT(table);   // compact one-line output
+std::cout << DB::TREE(table);    // pretty tree structure
+```
+
+And, of course, you can print the variables directly:
+
+```cpp
+std::cout << DB::TABLE[0].ROW[0].CELL[0].cellInteger;
 ```
 
 ## 📌 Examples
@@ -97,7 +103,7 @@ DB::createDemoTable(demo);
 std::cout << DB::TREE(demo);
 ```
 
-### Example 4: Easter Egg 🎉
+### Example 4: Easter Egg
 ```cpp
 std::cout << DB::easterEgg(1);
 ```
