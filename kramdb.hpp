@@ -1,10 +1,10 @@
 /*---   kramdb.hpp - Library for simple in-RAM database system.   ---*/
-/*---                   Created by: Adam KrejËÌ                   ---*/
+/*---                   Created by: Adam Krejƒç√≠                   ---*/
 
 /*---        Online:    https://github.com/krejciad/kramdb        ---*/
 /*---        Documentation:                      README.md        ---*/
 /*---        Licence:                          LICENCE.txt        ---*/
-/*---        Licensed under CreativeCommons CC-BY-SA ©2025        ---*/
+/*---        Licensed under CreativeCommons CC-BY-SA ¬©2025        ---*/
 
 
 /*--- Defining library and dependencies. ---*/
@@ -197,7 +197,7 @@ namespace DB {
 		buffer << "EASTER_EGG: ";
 		switch (egg) {
 		case 1:
-			buffer << "Erik je negr.";
+			buffer << "Erik je negr";
 			break;
 		default: break;
 		} buffer << "\n";
