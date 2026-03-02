@@ -1,10 +1,10 @@
-/*---   kramdb.hpp - Library for simple in-RAM database system.   ---*/
-/*---                   Created by: Adam Krejčí                   ---*/
+/*---      kramdb.hpp - Library for simple in-RAM database system.     ---*/
+/*---                      Created by: Adam Krejčí                     ---*/
 
-/*---        Online:    https://github.com/krejciad/kramdb        ---*/
-/*---        Documentation:                      README.md        ---*/
-/*---        Licence:                          LICENCE.txt        ---*/
-/*---        Licensed under CreativeCommons CC-BY-SA ©2025        ---*/
+/*---        Online:         https://github.com/krejciad/kramdb        ---*/
+/*---        Documentation:                           README.md        ---*/
+/*---        Licence:                               LICENCE.txt        ---*/
+/*---        Licensed under GNU General Public Licence v3 ©2025        ---*/
 
 
 /*--- Defining library and dependencies. ---*/
@@ -203,5 +203,6 @@ namespace DB {
 		} buffer << "\n";
 		return buffer.str();
 	}
+
 
 }
